@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xgmml"
+authors = [
+    {name = "范叶亮", email = "leo-van@hotmail.com"}
+]
+description = "XGMML Reader and Writer"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["xgmml", "networkx", "igraph"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: Unix",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "lxml>=5.0.0",
+    "matplotlib>=3.8.0",
+    "networkx>=3.4",
+    "igraph>=0.11.2",
+]
+dynamic = ["version"]
+
+[project.urls]
+homepage = "https://github.com/leovan/xgmml"
+documentation = "https://xgmml.leovan.tech"
+
+[tool.setuptools.dynamic]
+version = {attr = "xgmml.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["."]
+exclude = ["tests*"]
+
+[tool.ruff]
+
+[tool.ruff.lint]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.format]
+quote-style = "single"
+docstring-code-format = true
