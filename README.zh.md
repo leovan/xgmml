@@ -27,6 +27,8 @@
 pip install xgmml
 ```
 
+具体使用方式详见文档：<https://xgmml.leovan.tech>。
+
 ## 版权
 
 The MIT License (MIT)

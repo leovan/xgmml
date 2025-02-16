@@ -27,6 +27,8 @@ Install **XGMML** via pip:
 pip install xgmml
 ```
 
+For detailed usage, please refer to the document: <https://xgmml.leovan.tech>.
+
 ## License
 
 The MIT License (MIT)
