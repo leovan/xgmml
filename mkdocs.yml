@@ -19,6 +19,7 @@ nav:
   - Parameters: parameters.md
   - Style: style.md
   - Custom: custom.md
+  - Examples: examples.md
 
 # Theme
 theme:
@@ -67,6 +68,7 @@ plugins:
             Parameters: 参数
             Style: 样式
             Custom: 自定义
+            Examples: 示例
 
 # Extra
 extra:
