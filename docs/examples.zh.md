@@ -4,11 +4,11 @@
 
 打开 Cytoscape，选择 Yeast Perturbation 示例数据。
 
-![](/images/examples/yeast_perturbation.png)
+![](images/examples/yeast_perturbation.png)
 
 单击 `File > Export > Network to File...` 将其导出为 XGMML 格式文件。
 
-![](/images/examples/export_xgmml.png)
+![](images/examples/export_xgmml.png)
 
 导出的 `yeast_perturbation.xgmml` 文件存储于仓库的[此目录](https://github.com/leovan/xgmml/tree/main/data/tests)。
 
@@ -53,7 +53,7 @@ xgmml_writer.write(
 
 导入 Cytoscape，可视化如下所示：
 
-![](/images/examples/yeast_perturbation_default.png)
+![](images/examples/yeast_perturbation_default.png)
 
 运行如下代码创建与原始 XGMML 文件类似的样式并写入 XGMML 文件：
 
@@ -106,8 +106,8 @@ xgmml_writer.write(
 
 导入 Cytoscape，可视化如下所示：
 
-![](/images/examples/yeast_perturbation_restore.png)
+![](images/examples/yeast_perturbation_restore.png)
 
 单击 `Layout > Prefuse Force Directed Layout` 可以获得更好的布局。
 
-![](/images/examples/yeast_perturbation_restore_layout.png)
+![](images/examples/yeast_perturbation_restore_layout.png)

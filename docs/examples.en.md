@@ -4,11 +4,11 @@
 
 Open Cytoscape and select the Yeast Perturbation sample data.
 
-![](/images/examples/yeast_perturbation.png)
+![](images/examples/yeast_perturbation.png)
 
 Click `File > Export > Network to File...` to export it as an XGMML format file.
 
-![](/images/examples/export_xgmml.png)
+![](images/examples/export_xgmml.png)
 
 The exported `yeast_perturbation.xgmml` file is stored in [this directory](https://github.com/leovan/xgmml/tree/main/data/tests) of the repository.
 
@@ -53,7 +53,7 @@ xgmml_writer.write(
 
 Import it into Cytoscape. The visualization is shown as below:
 
-![](/images/examples/yeast_perturbation_default.png)
+![](images/examples/yeast_perturbation_default.png)
 
 Run the following code to create a similar style to the original XGMML file and write it into an XGMML file:
 
@@ -106,8 +106,8 @@ xgmml_writer.write(
 
 Import it into Cytoscape. The visualization is show as below:
 
-![](/images/examples/yeast_perturbation_restore.png)
+![](images/examples/yeast_perturbation_restore.png)
 
 Click `Layout > Prefuse Force Directed Layout` to get a better layout.
 
-![](/images/examples/yeast_perturbation_restore_layout.png)
+![](images/examples/yeast_perturbation_restore_layout.png)

@@ -6,64 +6,64 @@
 
 The available point shapes (`xgmml.utils.style_utils.NODE_SHAPES`) are as follows:
 
-| Enum              |                             Example                              |
-| ----------------- | :---------------------------------------------------------------:|
-| ELLIPSE           |      <img src="/images/node_shapes/ELLIPSE.png" width="24">      |
-| RECTANGLE         |     <img src="/images/node_shapes/RECTANGLE.png" width="24">     |
-| HEXAGON           |      <img src="/images/node_shapes/HEXAGON.png" width="24">      |
-| OCTAGON           |      <img src="/images/node_shapes/OCTAGON.png" width="24">      |
-| DIAMOND           |      <img src="/images/node_shapes/DIAMOND.png" width="24">      |
-| TRIANGLE          |     <img src="/images/node_shapes/TRIANGLE.png" width="24">      |
-| ROUNDED_RECTANGLE | <img src="/images/node_shapes/ROUNDED_RECTANGLE.png" width="24"> |
+| Enum              |                             Example                             |
+| ----------------- | :--------------------------------------------------------------:|
+| ELLIPSE           |      <img src="images/node_shapes/ELLIPSE.png" width="24">      |
+| RECTANGLE         |     <img src="images/node_shapes/RECTANGLE.png" width="24">     |
+| HEXAGON           |      <img src="images/node_shapes/HEXAGON.png" width="24">      |
+| OCTAGON           |      <img src="images/node_shapes/OCTAGON.png" width="24">      |
+| DIAMOND           |      <img src="images/node_shapes/DIAMOND.png" width="24">      |
+| TRIANGLE          |     <img src="images/node_shapes/TRIANGLE.png" width="24">      |
+| ROUNDED_RECTANGLE | <img src="images/node_shapes/ROUNDED_RECTANGLE.png" width="24"> |
 
 ### Line Type
 
 The available line types (`xgmml.utils.style_utils.LINE_TYPES`) are as follows:
 
-| Enum             |                           Example                            |
-| ---------------- | :----------------------------------------------------------: |
-| SOLID            |     <img src="/images/line_types/SOLID.png" width="48">      |
-| LONG_DASH        |   <img src="/images/line_types/LONG_DASH.png" width="48">    |
-| DOT              |      <img src="/images/line_types/DOT.png" width="48">       |
-| DASH_DOT         |    <img src="/images/line_types/DASH_DOT.png" width="48">    |
-| EQUAL_DASH       |   <img src="/images/line_types/EQUAL_DASH.png" width="48">   |
-| PARALLEL_LINES   | <img src="/images/line_types/PARALLEL_LINES.png" width="48"> |
-| VERTICAL_SLASH   | <img src="/images/line_types/VERTICAL_SLASH.png" width="48"> |
-| FORWARD_SLASH    | <img src="/images/line_types/FORWARD_SLASH.png" width="48">  |
-| BACKWARD_SLASH   | <img src="/images/line_types/BACKWARD_SLASH.png" width="48"> |
-| CONTIGUOUS_ARROW | <img src="/images/line_types/CONTIGUOUS_ARROW.png" width="48"> |
-| SEPARATE_ARROW   | <img src="/images/line_types/SEPARATE_ARROW.png" width="48"> |
-| SINEWAVE         |    <img src="/images/line_types/SINEWAVE.png" width="48">    |
-| ZIGZAG           |     <img src="/images/line_types/ZIGZAG.png" width="48">     |
+| Enum             |                           Example                           |
+| ---------------- | :---------------------------------------------------------: |
+| SOLID            |     <img src="images/line_types/SOLID.png" width="48">      |
+| LONG_DASH        |   <img src="images/line_types/LONG_DASH.png" width="48">    |
+| DOT              |      <img src="images/line_types/DOT.png" width="48">       |
+| DASH_DOT         |    <img src="images/line_types/DASH_DOT.png" width="48">    |
+| EQUAL_DASH       |   <img src="images/line_types/EQUAL_DASH.png" width="48">   |
+| PARALLEL_LINES   | <img src="images/line_types/PARALLEL_LINES.png" width="48"> |
+| VERTICAL_SLASH   | <img src="images/line_types/VERTICAL_SLASH.png" width="48"> |
+| FORWARD_SLASH    | <img src="images/line_types/FORWARD_SLASH.png" width="48">  |
+| BACKWARD_SLASH   | <img src="images/line_types/BACKWARD_SLASH.png" width="48"> |
+| CONTIGUOUS_ARROW | <img src="images/line_types/CONTIGUOUS_ARROW.png" width="48"> |
+| SEPARATE_ARROW   | <img src="images/line_types/SEPARATE_ARROW.png" width="48"> |
+| SINEWAVE         |    <img src="images/line_types/SINEWAVE.png" width="48">    |
+| ZIGZAG           |     <img src="images/line_types/ZIGZAG.png" width="48">     |
 
 ### Arrow Shape
 
 The available arrow shapes (`xgmml.utils.style_utils.ARROW_SHAPES`) are as follows:
 
-| Enum             |                           Example                            |
-| ---------------- | :----------------------------------------------------------: |
-| ARROW            |    <img src="/images/arrow_shapes/ARROW.png" width="48">     |
-| ARROW_SHORT      | <img src="/images/arrow_shapes/ARROW_SHORT.png" width="48">  |
-| CIRCLE           |    <img src="/images/arrow_shapes/CIRCLE.png" width="48">    |
-| CROSS_DELTA      | <img src="/images/arrow_shapes/CROSS_DELTA.png" width="48">  |
-| CROSS_OPEN_DELTA | <img src="/images/arrow_shapes/CROSS_OPEN_DELTA.png" width="48"> |
-| DELTA            |    <img src="/images/arrow_shapes/DELTA.png" width="48">     |
-| DELTA_SHORT_1    | <img src="/images/arrow_shapes/DELTA_SHORT_1.png" width="48"> |
-| DELTA_SHORT_2    | <img src="/images/arrow_shapes/DELTA_SHORT_2.png" width="48"> |
-| DIAMOND          |   <img src="/images/arrow_shapes/DIAMOND.png" width="48">    |
-| DIAMOND_SHORT_1  | <img src="/images/arrow_shapes/DIAMOND_SHORT_1.png" width="48"> |
-| DIAMOND_SHORT_2  | <img src="/images/arrow_shapes/DIAMOND_SHORT_2.png" width="48"> |
-| HALF_BOTTOM      | <img src="/images/arrow_shapes/HALF_BOTTOM.png" width="48">  |
-| HALF_CIRCLE      | <img src="/images/arrow_shapes/HALF_CIRCLE.png" width="48">  |
-| HALF_TOP         |   <img src="/images/arrow_shapes/HALF_TOP.png" width="48">   |
+| Enum             |                           Example                           |
+| ---------------- | :---------------------------------------------------------: |
+| ARROW            |    <img src="images/arrow_shapes/ARROW.png" width="48">     |
+| ARROW_SHORT      | <img src="images/arrow_shapes/ARROW_SHORT.png" width="48">  |
+| CIRCLE           |    <img src="images/arrow_shapes/CIRCLE.png" width="48">    |
+| CROSS_DELTA      | <img src="images/arrow_shapes/CROSS_DELTA.png" width="48">  |
+| CROSS_OPEN_DELTA | <img src="images/arrow_shapes/CROSS_OPEN_DELTA.png" width="48"> |
+| DELTA            |    <img src="images/arrow_shapes/DELTA.png" width="48">     |
+| DELTA_SHORT_1    | <img src="images/arrow_shapes/DELTA_SHORT_1.png" width="48"> |
+| DELTA_SHORT_2    | <img src="images/arrow_shapes/DELTA_SHORT_2.png" width="48"> |
+| DIAMOND          |   <img src="images/arrow_shapes/DIAMOND.png" width="48">    |
+| DIAMOND_SHORT_1  | <img src="images/arrow_shapes/DIAMOND_SHORT_1.png" width="48"> |
+| DIAMOND_SHORT_2  | <img src="images/arrow_shapes/DIAMOND_SHORT_2.png" width="48"> |
+| HALF_BOTTOM      | <img src="images/arrow_shapes/HALF_BOTTOM.png" width="48">  |
+| HALF_CIRCLE      | <img src="images/arrow_shapes/HALF_CIRCLE.png" width="48">  |
+| HALF_TOP         |   <img src="images/arrow_shapes/HALF_TOP.png" width="48">   |
 | NONE             |                                                              |
-| OPEN_CIRCLE      | <img src="/images/arrow_shapes/OPEN_CIRCLE.png" width="48">  |
-| OPEN_DELTA       |  <img src="/images/arrow_shapes/OPEN_DELTA.png" width="48">  |
-| OPEN_DIAMOND     | <img src="/images/arrow_shapes/OPEN_DIAMOND.png" width="48"> |
-| OPEN_HALF_CIRCLE | <img src="/images/arrow_shapes/OPEN_HALF_CIRCLE.png" width="48"> |
-| OPEN_SQUARE      | <img src="/images/arrow_shapes/OPEN_SQUARE.png" width="48">  |
-| SQUARE           |    <img src="/images/arrow_shapes/SQUARE.png" width="48">    |
-| T                |      <img src="/images/arrow_shapes/T.png" width="48">       |
+| OPEN_CIRCLE      | <img src="images/arrow_shapes/OPEN_CIRCLE.png" width="48">  |
+| OPEN_DELTA       |  <img src="images/arrow_shapes/OPEN_DELTA.png" width="48">  |
+| OPEN_DIAMOND     | <img src="images/arrow_shapes/OPEN_DIAMOND.png" width="48"> |
+| OPEN_HALF_CIRCLE | <img src="images/arrow_shapes/OPEN_HALF_CIRCLE.png" width="48"> |
+| OPEN_SQUARE      | <img src="images/arrow_shapes/OPEN_SQUARE.png" width="48">  |
+| SQUARE           |    <img src="images/arrow_shapes/SQUARE.png" width="48">    |
+| T                |      <img src="images/arrow_shapes/T.png" width="48">       |
 
 ### Color
 
@@ -84,7 +84,7 @@ The default discrete colors (`xgmml.utils.style_utils.COLORS`) are as follows:
 
 The default continuous color is coolwarm in matplotlib, as shown below:
 
-<img src="/images/colors/default_discrete_color.png" width="500">
+<img src="images/colors/default_discrete_color.png" width="500">
 
 ## Mapper
 
