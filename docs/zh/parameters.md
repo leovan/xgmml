@@ -1,3 +1,7 @@
+---
+icon: lucide/variable
+---
+
 # 参数
 
 !!! tip "提示"

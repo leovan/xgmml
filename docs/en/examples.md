@@ -1,20 +1,24 @@
-# 示例
+---
+icon: lucide/share-2
+---
 
-## 示例数据
+# Examples
 
-打开 Cytoscape，选择 Yeast Perturbation 示例数据。
+## Sample data
 
-![](images/examples/yeast_perturbation.png)
+Open Cytoscape and select the Yeast Perturbation sample data.
 
-单击 `File > Export > Network to File...` 将其导出为 XGMML 格式文件。
+![](../images/examples/yeast_perturbation.png)
 
-![](images/examples/export_xgmml.png)
+Click `File > Export > Network to File...` to export it as an XGMML format file.
 
-导出的 `yeast_perturbation.xgmml` 文件存储于仓库的[此目录](https://github.com/leovan/xgmml/tree/main/data/tests)。
+![](../images/examples/export_xgmml.png)
 
-## 读取器
+The exported `yeast_perturbation.xgmml` file is stored in [this directory](https://github.com/leovan/xgmml/tree/main/data/tests) of the repository.
 
-以 `NetworkxXGMMLReader` 为例，运行如下代码读取 XGMML 文件：
+## Reader
+
+Run the following code to read the XGMML file with `NetworkxXGMMLReader`:
 
 ```python
 from xgmml.reader.networkx_xgmml_reader import NetworkxXGMMLReader
@@ -23,7 +27,7 @@ xgmml_reader = NetworkxXGMMLReader()
 yeast_perturbation_graph = xgmml_reader.read('yeast_perturbation.xgmml')
 ```
 
-运行如下代码查看图的基本信息：
+Run the following code to view the basic information of the graph:
 
 ```python
 yeast_perturbation_graph.is_directed()
@@ -36,9 +40,9 @@ len(yeast_perturbation_graph.edges)
 # 359
 ```
 
-## 写入器
+## Writer
 
-以 `NetworkxXGMMLWriter` 为例，将图写入 XGMML 文件：
+Run the following code to write the graph into an XGMML file with `NetworkxXGMMLWriter`:
 
 ```python
 from xgmml.writer.networkx_xgmml_writer import NetworkxXGMMLWriter
@@ -51,11 +55,11 @@ xgmml_writer.write(
 )
 ```
 
-导入 Cytoscape，可视化如下所示：
+Import it into Cytoscape. The visualization is shown as below:
 
-![](images/examples/yeast_perturbation_default.png)
+![](../images/examples/yeast_perturbation_default.png)
 
-运行如下代码创建与原始 XGMML 文件类似的样式并写入 XGMML 文件：
+Run the following code to create a similar style to the original XGMML file and write it into an XGMML file:
 
 ```python
 import matplotlib as mpl
@@ -104,10 +108,10 @@ xgmml_writer.write(
 )
 ```
 
-导入 Cytoscape，可视化如下所示：
+Import it into Cytoscape. The visualization is show as below:
 
-![](images/examples/yeast_perturbation_restore.png)
+![](../images/examples/yeast_perturbation_restore.png)
 
-单击 `Layout > Prefuse Force Directed Layout` 可以获得更好的布局。
+Click `Layout > Prefuse Force Directed Layout` to get a better layout.
 
-![](images/examples/yeast_perturbation_restore_layout.png)
+![](../images/examples/yeast_perturbation_restore_layout.png)

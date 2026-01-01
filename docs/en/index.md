@@ -1,4 +1,4 @@
-# XGMML <img src="https://raw.githubusercontent.com/leovan/xgmml/main/docs/images/logo.png" align="right" alt="logo" height="100" style="border: none; float: right; height: 100px;" />
+# XGMML <img src="/images/logo.png" align="right" alt="logo" height="100" style="border: none; float: right; height: 100px;" />
 
 ![Version](https://img.shields.io/pypi/v/xgmml)
 ![Python Versions](https://img.shields.io/pypi/pyversions/xgmml)
@@ -6,8 +6,6 @@
 ![Downloads](https://img.shields.io/pypi/dm/xgmml)
 
 ---
-
-🇺🇸 [README](README.md) | 🇨🇳 [中文说明](README.zh.md)
 
 ## Introduction
 

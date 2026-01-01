@@ -1,3 +1,7 @@
+---
+icon: lucide/file-plus-corner
+---
+
 # 自定义
 
 ## 读取器

@@ -1,3 +1,7 @@
+---
+icon: lucide/file-code-corner
+---
+
 # API
 
 ## 读取器

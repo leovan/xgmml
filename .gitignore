@@ -33,6 +33,13 @@ MANIFEST
 # VSCode
 .vscode/
 
+# Docs
+site
+
+# Others
+.cache
+.ruff_cache/
+
 # Custom
 data/tests/*_networkx*.xgmml
 data/tests/*_igraph*.xgmml

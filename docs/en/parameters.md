@@ -1,3 +1,7 @@
+---
+icon: lucide/variable
+---
+
 # Parameters
 
 !!! tip "Tips"

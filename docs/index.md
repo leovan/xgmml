@@ -1,4 +1,5 @@
 # XGMML <img src="/images/logo.png" align="right" alt="logo" height="100" style="border: none; float: right; height: 100px;" />
+
 ![Version](https://img.shields.io/pypi/v/xgmml)
 ![Python Versions](https://img.shields.io/pypi/pyversions/xgmml)
 ![License](https://img.shields.io/pypi/l/xgmml)
@@ -25,8 +26,10 @@ Install **XGMML** via pip:
 pip install xgmml
 ```
 
+Handbook: <https://xgmml.leovan.tech>。
+
 ## License
 
 The MIT License (MIT)
 
-Copyright &copy; 2025，<a href="https://leovan.me" target="_blank">范叶亮 | Leo Van</a>
+Copyright &copy; 2025-2026，<a href="https://leovan.me" target="_blank">范叶亮 | Leo Van</a>
